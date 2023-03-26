@@ -1,0 +1,45 @@
+.nav{
+  height:90px;
+  width:100vw;
+  background-color:#B8621B;
+  text-align: center;
+}
+ul{
+  margin: 0;
+  margin: auto;
+}
+li{
+  display:inline-block;
+  list-style: unset;
+  padding: 20px;
+  color:antiquewhite;
+}
+.home{
+  text-align: center;
+}
+img{
+  height:auto;
+  width:40vw;
+}
+.heading{
+  text-align: center;
+}
+button{
+  background-color:#B8621B;
+  border: none;
+  width:100px;
+  height:50px;
+}
+a{
+  text-decoration: none;
+  color:antiquewhite;
+}
+hr{
+  border:solid #B8621B;
+  width:80vw;
+}
+@media(max-width:575px){
+  li{
+    padding:10px;
+  }
+}
